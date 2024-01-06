@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonchat"
+version = "0.0.1"
+description = "A simple websocket chat with class"
+authors = ["Alexandre Carrascosa <alexandrecarrascosa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.108.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+python-multipart = "^0.0.6"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
